@@ -2,6 +2,11 @@
 
 A small, playable React learning interaction. Learners identify fractions represented by shaded shapes, marked number lines, and highlighted grouped objects, receive matching explanatory feedback, and continue or retry through four trail stops.
 
+## Audience and limits
+
+This prototype is intended for a primary or junior-secondary learner, or for a teacher demonstrating a short fraction activity. It is a small four-question prototype, not a classroom-ready product or a full learning management system.
+
+There are no learner accounts, personal data collection, audio uploads, backend services, or secrets. No learner data is retained. A full-class version would need persistent learner progress, teacher reporting, and broader content and accessibility testing.
 ## Prerequisites
 
 - Node.js 18 or later
