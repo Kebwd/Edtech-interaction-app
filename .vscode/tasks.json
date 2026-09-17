@@ -1,0 +1,73 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "QA build check",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "QA build check via npm.cmd",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "QA install dependencies",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"install"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "QA build after install",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "QA dev server",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"dev",
+				"--",
+				"--host",
+				"0.0.0.0"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "QA workspace status",
+			"type": "shell",
+			"command": "git.cmd",
+			"args": [
+				"status",
+				"--short"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
