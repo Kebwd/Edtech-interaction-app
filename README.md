@@ -59,3 +59,6 @@ To demonstrate the hint-first path, choose any incorrect option first. The app g
 ## Learning idea
 
 The interaction maps to **retrieval practice**: recalling information and receiving feedback strengthens later recall. This is based on Roediger, H. L., & Karpicke, J. D. (2006), *Test-enhanced learning: Taking memory tests improves long-term retention*, **Psychological Science, 17**(3), 249–255. Each tap is a low-stakes retrieval attempt; hint-first feedback supports another retrieval attempt, multiple visual representations build connections, and spaced mastery retries revisit missed fractions.
+## Demo Video
+https://github.com/user-attachments/assets/6224070a-2931-4c31-8b3b-60b08b3e61fd
+
